@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.suXX789J.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ArnlbRRW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.dPHnm2xE.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.qO7AWGyu.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.YUIjpf3c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.eObyQ-bO.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.rGepyaS9.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.vCVvQX4R.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="page-container svelte-1viob5i"><div class="menu svelte-f2virw"><h2 class="menu-title svelte-f2virw" data-svelte-h="svelte-11suyxp">Pathfinding Visualizer</h2> <button class="svelte-f2virw" data-svelte-h="svelte-1su8ko">Create Maze</button> <button class="svelte-f2virw" data-svelte-h="svelte-bc3a07">Start Pathfinding</button> <button class="svelte-f2virw" data-svelte-h="svelte-1nm3uk5">Clear Grid</button> <button class="svelte-f2virw" data-svelte-h="svelte-uatb5t">Clear Route</button> <select class="algorithm svelte-f2virw"><option value="a_star">A* Search</option><option value="bfs">Breadth-First Search</option></select> <label for="animation-speed-slider" class="slider-label svelte-f2virw" data-svelte-h="svelte-ko0lk8">Animation Speed</label> <input id="animation-speed-slider" type="range" min="1" max="15" class="animation-speed-slider svelte-f2virw" value="2"> </div> <div class="grid-container svelte-1viob5i"><div class="loader svelte-1viob5i"></div></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_puyb2o = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ArnlbRRW.js"),
+						import("./_app/immutable/entry/app.YUIjpf3c.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
