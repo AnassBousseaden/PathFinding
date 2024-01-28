@@ -4,6 +4,10 @@
 ## Introduction
 Welcome to the Pathfinding Visualizer! This web application is designed to visually demonstrate how different pathfinding algorithms work. Built with Svelte and deployed on GitHub Pages, it offers an interactive way to understand these algorithms in action.
 
+## Demo
+![Pathfinding Visualizer Demo](path_finding.gif)
+
+
 ## Features
 - **Interactive Grid:** Customize scenarios with walls and weights.
 - **Multiple Algorithms:** Choose from algorithms like A* and BFS.
